@@ -1,0 +1,6 @@
+/Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/zadaca1.dir
+/Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/zadaca2.dir
+/Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/zadaca3.dir
+/Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/zadaca4.dir
+/Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/rebuild_cache.dir
