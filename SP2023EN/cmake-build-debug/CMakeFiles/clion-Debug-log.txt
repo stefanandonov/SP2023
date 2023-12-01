@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/stefanandonov/CLionProjects/SP2023EN -B /Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN -B /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-debug
+-- Build files have been written to: /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug

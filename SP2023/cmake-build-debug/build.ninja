@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug/
+cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target zadaca1
 
@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023/cmake-build-debu
 
 build cmake_object_order_depends_target_zadaca1: phony || CMakeFiles/zadaca1.dir
 
-build CMakeFiles/zadaca1.dir/aud2/zadaca1.cpp.o: CXX_COMPILER__zadaca1_Debug /Users/stefanandonov/CLionProjects/SP2023/aud2/zadaca1.cpp || cmake_object_order_depends_target_zadaca1
-  DEP_FILE = CMakeFiles/zadaca1.dir/aud2/zadaca1.cpp.o.d
+build CMakeFiles/zadaca1.dir/aud7/zadaca1.cpp.o: CXX_COMPILER__zadaca1_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca1.cpp || cmake_object_order_depends_target_zadaca1
+  DEP_FILE = CMakeFiles/zadaca1.dir/aud7/zadaca1.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/zadaca1.dir
-  OBJECT_FILE_DIR = CMakeFiles/zadaca1.dir/aud2
+  OBJECT_FILE_DIR = CMakeFiles/zadaca1.dir/aud7
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/zadaca1.dir/aud2/zadaca1.cpp.o: CXX_COMPILER__zadaca1_Debug /Us
 #############################################
 # Link the executable zadaca1
 
-build zadaca1: CXX_EXECUTABLE_LINKER__zadaca1_Debug CMakeFiles/zadaca1.dir/aud2/zadaca1.cpp.o
+build zadaca1: CXX_EXECUTABLE_LINKER__zadaca1_Debug CMakeFiles/zadaca1.dir/aud7/zadaca1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/zadaca1.dir
   POST_BUILD = :
@@ -77,11 +77,11 @@ build zadaca1: CXX_EXECUTABLE_LINKER__zadaca1_Debug CMakeFiles/zadaca1.dir/aud2/
 
 build cmake_object_order_depends_target_zadaca2: phony || CMakeFiles/zadaca2.dir
 
-build CMakeFiles/zadaca2.dir/aud2/zadaca2.cpp.o: CXX_COMPILER__zadaca2_Debug /Users/stefanandonov/CLionProjects/SP2023/aud2/zadaca2.cpp || cmake_object_order_depends_target_zadaca2
-  DEP_FILE = CMakeFiles/zadaca2.dir/aud2/zadaca2.cpp.o.d
+build CMakeFiles/zadaca2.dir/aud7/zadaca2.cpp.o: CXX_COMPILER__zadaca2_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca2.cpp || cmake_object_order_depends_target_zadaca2
+  DEP_FILE = CMakeFiles/zadaca2.dir/aud7/zadaca2.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/zadaca2.dir
-  OBJECT_FILE_DIR = CMakeFiles/zadaca2.dir/aud2
+  OBJECT_FILE_DIR = CMakeFiles/zadaca2.dir/aud7
 
 
 # =============================================================================
@@ -91,7 +91,7 @@ build CMakeFiles/zadaca2.dir/aud2/zadaca2.cpp.o: CXX_COMPILER__zadaca2_Debug /Us
 #############################################
 # Link the executable zadaca2
 
-build zadaca2: CXX_EXECUTABLE_LINKER__zadaca2_Debug CMakeFiles/zadaca2.dir/aud2/zadaca2.cpp.o
+build zadaca2: CXX_EXECUTABLE_LINKER__zadaca2_Debug CMakeFiles/zadaca2.dir/aud7/zadaca2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/zadaca2.dir
   POST_BUILD = :
@@ -108,11 +108,11 @@ build zadaca2: CXX_EXECUTABLE_LINKER__zadaca2_Debug CMakeFiles/zadaca2.dir/aud2/
 
 build cmake_object_order_depends_target_zadaca3: phony || CMakeFiles/zadaca3.dir
 
-build CMakeFiles/zadaca3.dir/aud2/zadaca3.cpp.o: CXX_COMPILER__zadaca3_Debug /Users/stefanandonov/CLionProjects/SP2023/aud2/zadaca3.cpp || cmake_object_order_depends_target_zadaca3
-  DEP_FILE = CMakeFiles/zadaca3.dir/aud2/zadaca3.cpp.o.d
+build CMakeFiles/zadaca3.dir/aud7/zadaca3.cpp.o: CXX_COMPILER__zadaca3_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca3.cpp || cmake_object_order_depends_target_zadaca3
+  DEP_FILE = CMakeFiles/zadaca3.dir/aud7/zadaca3.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/zadaca3.dir
-  OBJECT_FILE_DIR = CMakeFiles/zadaca3.dir/aud2
+  OBJECT_FILE_DIR = CMakeFiles/zadaca3.dir/aud7
 
 
 # =============================================================================
@@ -122,7 +122,7 @@ build CMakeFiles/zadaca3.dir/aud2/zadaca3.cpp.o: CXX_COMPILER__zadaca3_Debug /Us
 #############################################
 # Link the executable zadaca3
 
-build zadaca3: CXX_EXECUTABLE_LINKER__zadaca3_Debug CMakeFiles/zadaca3.dir/aud2/zadaca3.cpp.o
+build zadaca3: CXX_EXECUTABLE_LINKER__zadaca3_Debug CMakeFiles/zadaca3.dir/aud7/zadaca3.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/zadaca3.dir
   POST_BUILD = :
@@ -139,11 +139,11 @@ build zadaca3: CXX_EXECUTABLE_LINKER__zadaca3_Debug CMakeFiles/zadaca3.dir/aud2/
 
 build cmake_object_order_depends_target_zadaca4: phony || CMakeFiles/zadaca4.dir
 
-build CMakeFiles/zadaca4.dir/aud2/zadaca4.cpp.o: CXX_COMPILER__zadaca4_Debug /Users/stefanandonov/CLionProjects/SP2023/aud2/zadaca4.cpp || cmake_object_order_depends_target_zadaca4
-  DEP_FILE = CMakeFiles/zadaca4.dir/aud2/zadaca4.cpp.o.d
+build CMakeFiles/zadaca4.dir/aud7/zadaca4.cpp.o: CXX_COMPILER__zadaca4_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca4.cpp || cmake_object_order_depends_target_zadaca4
+  DEP_FILE = CMakeFiles/zadaca4.dir/aud7/zadaca4.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/zadaca4.dir
-  OBJECT_FILE_DIR = CMakeFiles/zadaca4.dir/aud2
+  OBJECT_FILE_DIR = CMakeFiles/zadaca4.dir/aud7
 
 
 # =============================================================================
@@ -153,7 +153,7 @@ build CMakeFiles/zadaca4.dir/aud2/zadaca4.cpp.o: CXX_COMPILER__zadaca4_Debug /Us
 #############################################
 # Link the executable zadaca4
 
-build zadaca4: CXX_EXECUTABLE_LINKER__zadaca4_Debug CMakeFiles/zadaca4.dir/aud2/zadaca4.cpp.o
+build zadaca4: CXX_EXECUTABLE_LINKER__zadaca4_Debug CMakeFiles/zadaca4.dir/aud7/zadaca4.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/zadaca4.dir
   POST_BUILD = :
@@ -161,12 +161,198 @@ build zadaca4: CXX_EXECUTABLE_LINKER__zadaca4_Debug CMakeFiles/zadaca4.dir/aud2/
   TARGET_FILE = zadaca4
   TARGET_PDB = zadaca4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca5
+
+
+#############################################
+# Order-only phony target for zadaca5
+
+build cmake_object_order_depends_target_zadaca5: phony || CMakeFiles/zadaca5.dir
+
+build CMakeFiles/zadaca5.dir/aud7/zadaca5.cpp.o: CXX_COMPILER__zadaca5_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca5.cpp || cmake_object_order_depends_target_zadaca5
+  DEP_FILE = CMakeFiles/zadaca5.dir/aud7/zadaca5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca5.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca5.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca5
+
+
+#############################################
+# Link the executable zadaca5
+
+build zadaca5: CXX_EXECUTABLE_LINKER__zadaca5_Debug CMakeFiles/zadaca5.dir/aud7/zadaca5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca5
+  TARGET_PDB = zadaca5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca6
+
+
+#############################################
+# Order-only phony target for zadaca6
+
+build cmake_object_order_depends_target_zadaca6: phony || CMakeFiles/zadaca6.dir
+
+build CMakeFiles/zadaca6.dir/aud7/zadaca6.cpp.o: CXX_COMPILER__zadaca6_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca6.cpp || cmake_object_order_depends_target_zadaca6
+  DEP_FILE = CMakeFiles/zadaca6.dir/aud7/zadaca6.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca6.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca6.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca6
+
+
+#############################################
+# Link the executable zadaca6
+
+build zadaca6: CXX_EXECUTABLE_LINKER__zadaca6_Debug CMakeFiles/zadaca6.dir/aud7/zadaca6.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca6
+  TARGET_PDB = zadaca6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca7
+
+
+#############################################
+# Order-only phony target for zadaca7
+
+build cmake_object_order_depends_target_zadaca7: phony || CMakeFiles/zadaca7.dir
+
+build CMakeFiles/zadaca7.dir/aud7/zadaca7.cpp.o: CXX_COMPILER__zadaca7_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca7.cpp || cmake_object_order_depends_target_zadaca7
+  DEP_FILE = CMakeFiles/zadaca7.dir/aud7/zadaca7.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca7.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca7.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca7
+
+
+#############################################
+# Link the executable zadaca7
+
+build zadaca7: CXX_EXECUTABLE_LINKER__zadaca7_Debug CMakeFiles/zadaca7.dir/aud7/zadaca7.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca7
+  TARGET_PDB = zadaca7.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca8
+
+
+#############################################
+# Order-only phony target for zadaca8
+
+build cmake_object_order_depends_target_zadaca8: phony || CMakeFiles/zadaca8.dir
+
+build CMakeFiles/zadaca8.dir/aud7/zadaca8.cpp.o: CXX_COMPILER__zadaca8_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca8.cpp || cmake_object_order_depends_target_zadaca8
+  DEP_FILE = CMakeFiles/zadaca8.dir/aud7/zadaca8.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca8.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca8.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca8
+
+
+#############################################
+# Link the executable zadaca8
+
+build zadaca8: CXX_EXECUTABLE_LINKER__zadaca8_Debug CMakeFiles/zadaca8.dir/aud7/zadaca8.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca8
+  TARGET_PDB = zadaca8.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca9
+
+
+#############################################
+# Order-only phony target for zadaca9
+
+build cmake_object_order_depends_target_zadaca9: phony || CMakeFiles/zadaca9.dir
+
+build CMakeFiles/zadaca9.dir/aud7/zadaca9.cpp.o: CXX_COMPILER__zadaca9_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca9.cpp || cmake_object_order_depends_target_zadaca9
+  DEP_FILE = CMakeFiles/zadaca9.dir/aud7/zadaca9.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca9.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca9.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca9
+
+
+#############################################
+# Link the executable zadaca9
+
+build zadaca9: CXX_EXECUTABLE_LINKER__zadaca9_Debug CMakeFiles/zadaca9.dir/aud7/zadaca9.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca9.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca9
+  TARGET_PDB = zadaca9.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target playground
+
+
+#############################################
+# Order-only phony target for playground
+
+build cmake_object_order_depends_target_playground: phony || CMakeFiles/playground.dir
+
+build CMakeFiles/playground.dir/playground.cpp.o: CXX_COMPILER__playground_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/playground.cpp || cmake_object_order_depends_target_playground
+  DEP_FILE = CMakeFiles/playground.dir/playground.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/playground.dir
+  OBJECT_FILE_DIR = CMakeFiles/playground.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target playground
+
+
+#############################################
+# Link the executable playground
+
+build playground: CXX_EXECUTABLE_LINKER__playground_Debug CMakeFiles/playground.dir/playground.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/playground.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = playground
+  TARGET_PDB = playground.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -177,7 +363,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/stefanandonov/CLionProjects/SP2023 -B/Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug
+  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/stefanandonov/CLionProjects/SP2023_full/SP2023 -B/Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -193,9 +379,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/stefanandonov/CLionProjects/SP2023/cmake-build-debug
+# Folder: /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug
 
-build all: phony zadaca1 zadaca2 zadaca3 zadaca4
+build all: phony zadaca1 zadaca2 zadaca3 zadaca4 zadaca5 zadaca6 zadaca7 zadaca8 zadaca9 playground
 
 # =============================================================================
 # Built-in targets
@@ -204,14 +390,14 @@ build all: phony zadaca1 zadaca2 zadaca3 zadaca4
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

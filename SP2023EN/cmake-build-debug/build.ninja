@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-debug/
+cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target task1
 
@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-de
 
 build cmake_object_order_depends_target_task1: phony || CMakeFiles/task1.dir
 
-build CMakeFiles/task1.dir/ex2/task1.cpp.o: CXX_COMPILER__task1_Debug /Users/stefanandonov/CLionProjects/SP2023EN/ex2/task1.cpp || cmake_object_order_depends_target_task1
-  DEP_FILE = CMakeFiles/task1.dir/ex2/task1.cpp.o.d
+build CMakeFiles/task1.dir/ex7/task1.cpp.o: CXX_COMPILER__task1_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task1.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles/task1.dir/ex7/task1.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task1.dir
-  OBJECT_FILE_DIR = CMakeFiles/task1.dir/ex2
+  OBJECT_FILE_DIR = CMakeFiles/task1.dir/ex7
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/task1.dir/ex2/task1.cpp.o: CXX_COMPILER__task1_Debug /Users/ste
 #############################################
 # Link the executable task1
 
-build task1: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/ex2/task1.cpp.o
+build task1: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/ex7/task1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task1.dir
   POST_BUILD = :
@@ -77,11 +77,11 @@ build task1: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/ex2/task1.c
 
 build cmake_object_order_depends_target_task2: phony || CMakeFiles/task2.dir
 
-build CMakeFiles/task2.dir/ex2/task2.cpp.o: CXX_COMPILER__task2_Debug /Users/stefanandonov/CLionProjects/SP2023EN/ex2/task2.cpp || cmake_object_order_depends_target_task2
-  DEP_FILE = CMakeFiles/task2.dir/ex2/task2.cpp.o.d
+build CMakeFiles/task2.dir/ex7/task2.cpp.o: CXX_COMPILER__task2_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task2.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles/task2.dir/ex7/task2.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task2.dir
-  OBJECT_FILE_DIR = CMakeFiles/task2.dir/ex2
+  OBJECT_FILE_DIR = CMakeFiles/task2.dir/ex7
 
 
 # =============================================================================
@@ -91,7 +91,7 @@ build CMakeFiles/task2.dir/ex2/task2.cpp.o: CXX_COMPILER__task2_Debug /Users/ste
 #############################################
 # Link the executable task2
 
-build task2: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/ex2/task2.cpp.o
+build task2: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/ex7/task2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task2.dir
   POST_BUILD = :
@@ -108,11 +108,11 @@ build task2: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/ex2/task2.c
 
 build cmake_object_order_depends_target_task3: phony || CMakeFiles/task3.dir
 
-build CMakeFiles/task3.dir/ex2/task3.cpp.o: CXX_COMPILER__task3_Debug /Users/stefanandonov/CLionProjects/SP2023EN/ex2/task3.cpp || cmake_object_order_depends_target_task3
-  DEP_FILE = CMakeFiles/task3.dir/ex2/task3.cpp.o.d
+build CMakeFiles/task3.dir/ex7/task3.cpp.o: CXX_COMPILER__task3_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task3.cpp || cmake_object_order_depends_target_task3
+  DEP_FILE = CMakeFiles/task3.dir/ex7/task3.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task3.dir
-  OBJECT_FILE_DIR = CMakeFiles/task3.dir/ex2
+  OBJECT_FILE_DIR = CMakeFiles/task3.dir/ex7
 
 
 # =============================================================================
@@ -122,7 +122,7 @@ build CMakeFiles/task3.dir/ex2/task3.cpp.o: CXX_COMPILER__task3_Debug /Users/ste
 #############################################
 # Link the executable task3
 
-build task3: CXX_EXECUTABLE_LINKER__task3_Debug CMakeFiles/task3.dir/ex2/task3.cpp.o
+build task3: CXX_EXECUTABLE_LINKER__task3_Debug CMakeFiles/task3.dir/ex7/task3.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task3.dir
   POST_BUILD = :
@@ -139,11 +139,11 @@ build task3: CXX_EXECUTABLE_LINKER__task3_Debug CMakeFiles/task3.dir/ex2/task3.c
 
 build cmake_object_order_depends_target_task4: phony || CMakeFiles/task4.dir
 
-build CMakeFiles/task4.dir/ex2/task4.cpp.o: CXX_COMPILER__task4_Debug /Users/stefanandonov/CLionProjects/SP2023EN/ex2/task4.cpp || cmake_object_order_depends_target_task4
-  DEP_FILE = CMakeFiles/task4.dir/ex2/task4.cpp.o.d
+build CMakeFiles/task4.dir/ex7/task4.cpp.o: CXX_COMPILER__task4_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task4.cpp || cmake_object_order_depends_target_task4
+  DEP_FILE = CMakeFiles/task4.dir/ex7/task4.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task4.dir
-  OBJECT_FILE_DIR = CMakeFiles/task4.dir/ex2
+  OBJECT_FILE_DIR = CMakeFiles/task4.dir/ex7
 
 
 # =============================================================================
@@ -153,7 +153,7 @@ build CMakeFiles/task4.dir/ex2/task4.cpp.o: CXX_COMPILER__task4_Debug /Users/ste
 #############################################
 # Link the executable task4
 
-build task4: CXX_EXECUTABLE_LINKER__task4_Debug CMakeFiles/task4.dir/ex2/task4.cpp.o
+build task4: CXX_EXECUTABLE_LINKER__task4_Debug CMakeFiles/task4.dir/ex7/task4.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task4.dir
   POST_BUILD = :
@@ -170,11 +170,11 @@ build task4: CXX_EXECUTABLE_LINKER__task4_Debug CMakeFiles/task4.dir/ex2/task4.c
 
 build cmake_object_order_depends_target_task5: phony || CMakeFiles/task5.dir
 
-build CMakeFiles/task5.dir/ex2/task5.cpp.o: CXX_COMPILER__task5_Debug /Users/stefanandonov/CLionProjects/SP2023EN/ex2/task5.cpp || cmake_object_order_depends_target_task5
-  DEP_FILE = CMakeFiles/task5.dir/ex2/task5.cpp.o.d
+build CMakeFiles/task5.dir/ex7/task5.cpp.o: CXX_COMPILER__task5_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task5.cpp || cmake_object_order_depends_target_task5
+  DEP_FILE = CMakeFiles/task5.dir/ex7/task5.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task5.dir
-  OBJECT_FILE_DIR = CMakeFiles/task5.dir/ex2
+  OBJECT_FILE_DIR = CMakeFiles/task5.dir/ex7
 
 
 # =============================================================================
@@ -184,7 +184,7 @@ build CMakeFiles/task5.dir/ex2/task5.cpp.o: CXX_COMPILER__task5_Debug /Users/ste
 #############################################
 # Link the executable task5
 
-build task5: CXX_EXECUTABLE_LINKER__task5_Debug CMakeFiles/task5.dir/ex2/task5.cpp.o
+build task5: CXX_EXECUTABLE_LINKER__task5_Debug CMakeFiles/task5.dir/ex7/task5.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task5.dir
   POST_BUILD = :
@@ -201,11 +201,11 @@ build task5: CXX_EXECUTABLE_LINKER__task5_Debug CMakeFiles/task5.dir/ex2/task5.c
 
 build cmake_object_order_depends_target_task6: phony || CMakeFiles/task6.dir
 
-build CMakeFiles/task6.dir/ex2/task6.cpp.o: CXX_COMPILER__task6_Debug /Users/stefanandonov/CLionProjects/SP2023EN/ex2/task6.cpp || cmake_object_order_depends_target_task6
-  DEP_FILE = CMakeFiles/task6.dir/ex2/task6.cpp.o.d
+build CMakeFiles/task6.dir/ex7/task6.cpp.o: CXX_COMPILER__task6_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task6.cpp || cmake_object_order_depends_target_task6
+  DEP_FILE = CMakeFiles/task6.dir/ex7/task6.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task6.dir
-  OBJECT_FILE_DIR = CMakeFiles/task6.dir/ex2
+  OBJECT_FILE_DIR = CMakeFiles/task6.dir/ex7
 
 
 # =============================================================================
@@ -215,7 +215,7 @@ build CMakeFiles/task6.dir/ex2/task6.cpp.o: CXX_COMPILER__task6_Debug /Users/ste
 #############################################
 # Link the executable task6
 
-build task6: CXX_EXECUTABLE_LINKER__task6_Debug CMakeFiles/task6.dir/ex2/task6.cpp.o
+build task6: CXX_EXECUTABLE_LINKER__task6_Debug CMakeFiles/task6.dir/ex7/task6.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task6.dir
   POST_BUILD = :
@@ -223,12 +223,105 @@ build task6: CXX_EXECUTABLE_LINKER__task6_Debug CMakeFiles/task6.dir/ex2/task6.c
   TARGET_FILE = task6
   TARGET_PDB = task6.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target task7
+
+
+#############################################
+# Order-only phony target for task7
+
+build cmake_object_order_depends_target_task7: phony || CMakeFiles/task7.dir
+
+build CMakeFiles/task7.dir/ex7/task7.cpp.o: CXX_COMPILER__task7_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task7.cpp || cmake_object_order_depends_target_task7
+  DEP_FILE = CMakeFiles/task7.dir/ex7/task7.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/task7.dir
+  OBJECT_FILE_DIR = CMakeFiles/task7.dir/ex7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task7
+
+
+#############################################
+# Link the executable task7
+
+build task7: CXX_EXECUTABLE_LINKER__task7_Debug CMakeFiles/task7.dir/ex7/task7.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/task7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task7
+  TARGET_PDB = task7.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task8
+
+
+#############################################
+# Order-only phony target for task8
+
+build cmake_object_order_depends_target_task8: phony || CMakeFiles/task8.dir
+
+build CMakeFiles/task8.dir/ex4/task8.cpp.o: CXX_COMPILER__task8_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex4/task8.cpp || cmake_object_order_depends_target_task8
+  DEP_FILE = CMakeFiles/task8.dir/ex4/task8.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/task8.dir
+  OBJECT_FILE_DIR = CMakeFiles/task8.dir/ex4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task8
+
+
+#############################################
+# Link the executable task8
+
+build task8: CXX_EXECUTABLE_LINKER__task8_Debug CMakeFiles/task8.dir/ex4/task8.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/task8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task8
+  TARGET_PDB = task8.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task9
+
+
+#############################################
+# Order-only phony target for task9
+
+build cmake_object_order_depends_target_task9: phony || CMakeFiles/task9.dir
+
+build CMakeFiles/task9.dir/ex4/task9.cpp.o: CXX_COMPILER__task9_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex4/task9.cpp || cmake_object_order_depends_target_task9
+  DEP_FILE = CMakeFiles/task9.dir/ex4/task9.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/task9.dir
+  OBJECT_FILE_DIR = CMakeFiles/task9.dir/ex4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task9
+
+
+#############################################
+# Link the executable task9
+
+build task9: CXX_EXECUTABLE_LINKER__task9_Debug CMakeFiles/task9.dir/ex4/task9.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/task9.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task9
+  TARGET_PDB = task9.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -239,7 +332,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/stefanandonov/CLionProjects/SP2023EN -B/Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-debug
+  COMMAND = cd /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN -B/Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -255,9 +348,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/stefanandonov/CLionProjects/SP2023EN/cmake-build-debug
+# Folder: /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug
 
-build all: phony task1 task2 task3 task4 task5 task6
+build all: phony task1 task2 task3 task4 task5 task6 task7 task8 task9
 
 # =============================================================================
 # Built-in targets
@@ -266,14 +359,14 @@ build all: phony task1 task2 task3 task4 task5 task6
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023EN/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023EN/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################
