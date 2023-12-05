@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmak
 
 build cmake_object_order_depends_target_zadaca1: phony || CMakeFiles/zadaca1.dir
 
-build CMakeFiles/zadaca1.dir/aud7/zadaca1.cpp.o: CXX_COMPILER__zadaca1_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca1.cpp || cmake_object_order_depends_target_zadaca1
-  DEP_FILE = CMakeFiles/zadaca1.dir/aud7/zadaca1.cpp.o.d
+build CMakeFiles/zadaca1.dir/aud8/zadaca1.cpp.o: CXX_COMPILER__zadaca1_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud8/zadaca1.cpp || cmake_object_order_depends_target_zadaca1
+  DEP_FILE = CMakeFiles/zadaca1.dir/aud8/zadaca1.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/zadaca1.dir
-  OBJECT_FILE_DIR = CMakeFiles/zadaca1.dir/aud7
+  OBJECT_FILE_DIR = CMakeFiles/zadaca1.dir/aud8
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/zadaca1.dir/aud7/zadaca1.cpp.o: CXX_COMPILER__zadaca1_Debug /Us
 #############################################
 # Link the executable zadaca1
 
-build zadaca1: CXX_EXECUTABLE_LINKER__zadaca1_Debug CMakeFiles/zadaca1.dir/aud7/zadaca1.cpp.o
+build zadaca1: CXX_EXECUTABLE_LINKER__zadaca1_Debug CMakeFiles/zadaca1.dir/aud8/zadaca1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/zadaca1.dir
   POST_BUILD = :
@@ -441,6 +441,37 @@ build zadaca13: CXX_EXECUTABLE_LINKER__zadaca13_Debug CMakeFiles/zadaca13.dir/au
   TARGET_PDB = zadaca13.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target zadaca14
+
+
+#############################################
+# Order-only phony target for zadaca14
+
+build cmake_object_order_depends_target_zadaca14: phony || CMakeFiles/zadaca14.dir
+
+build CMakeFiles/zadaca14.dir/aud7/zadaca14.cpp.o: CXX_COMPILER__zadaca14_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca14.cpp || cmake_object_order_depends_target_zadaca14
+  DEP_FILE = CMakeFiles/zadaca14.dir/aud7/zadaca14.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca14.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca14.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca14
+
+
+#############################################
+# Link the executable zadaca14
+
+build zadaca14: CXX_EXECUTABLE_LINKER__zadaca14_Debug CMakeFiles/zadaca14.dir/aud7/zadaca14.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca14.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca14
+  TARGET_PDB = zadaca14.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target playground
 
 
@@ -505,7 +536,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug
 
-build all: phony zadaca1 zadaca2 zadaca3 zadaca4 zadaca5 zadaca6 zadaca7 zadaca8 zadaca9 zadaca10 zadaca11 zadaca12 zadaca13 playground
+build all: phony zadaca1 zadaca2 zadaca3 zadaca4 zadaca5 zadaca6 zadaca7 zadaca8 zadaca9 zadaca10 zadaca11 zadaca12 zadaca13 zadaca14 playground
 
 # =============================================================================
 # Built-in targets
