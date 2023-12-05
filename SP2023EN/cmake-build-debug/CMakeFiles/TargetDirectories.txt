@@ -7,5 +7,8 @@
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/task7.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/task8.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/task9.dir
+/Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/task10.dir
+/Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/task11.dir
+/Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/task12.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug/CMakeFiles/rebuild_cache.dir

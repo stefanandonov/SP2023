@@ -317,6 +317,130 @@ build zadaca9: CXX_EXECUTABLE_LINKER__zadaca9_Debug CMakeFiles/zadaca9.dir/aud7/
   TARGET_PDB = zadaca9.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target zadaca10
+
+
+#############################################
+# Order-only phony target for zadaca10
+
+build cmake_object_order_depends_target_zadaca10: phony || CMakeFiles/zadaca10.dir
+
+build CMakeFiles/zadaca10.dir/aud7/zadaca10.cpp.o: CXX_COMPILER__zadaca10_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca10.cpp || cmake_object_order_depends_target_zadaca10
+  DEP_FILE = CMakeFiles/zadaca10.dir/aud7/zadaca10.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca10.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca10.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca10
+
+
+#############################################
+# Link the executable zadaca10
+
+build zadaca10: CXX_EXECUTABLE_LINKER__zadaca10_Debug CMakeFiles/zadaca10.dir/aud7/zadaca10.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca10
+  TARGET_PDB = zadaca10.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca11
+
+
+#############################################
+# Order-only phony target for zadaca11
+
+build cmake_object_order_depends_target_zadaca11: phony || CMakeFiles/zadaca11.dir
+
+build CMakeFiles/zadaca11.dir/aud7/zadaca11.cpp.o: CXX_COMPILER__zadaca11_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca11.cpp || cmake_object_order_depends_target_zadaca11
+  DEP_FILE = CMakeFiles/zadaca11.dir/aud7/zadaca11.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca11.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca11.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca11
+
+
+#############################################
+# Link the executable zadaca11
+
+build zadaca11: CXX_EXECUTABLE_LINKER__zadaca11_Debug CMakeFiles/zadaca11.dir/aud7/zadaca11.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca11
+  TARGET_PDB = zadaca11.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca12
+
+
+#############################################
+# Order-only phony target for zadaca12
+
+build cmake_object_order_depends_target_zadaca12: phony || CMakeFiles/zadaca12.dir
+
+build CMakeFiles/zadaca12.dir/aud7/zadaca12.cpp.o: CXX_COMPILER__zadaca12_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca12.cpp || cmake_object_order_depends_target_zadaca12
+  DEP_FILE = CMakeFiles/zadaca12.dir/aud7/zadaca12.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca12.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca12.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca12
+
+
+#############################################
+# Link the executable zadaca12
+
+build zadaca12: CXX_EXECUTABLE_LINKER__zadaca12_Debug CMakeFiles/zadaca12.dir/aud7/zadaca12.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca12.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca12
+  TARGET_PDB = zadaca12.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadaca13
+
+
+#############################################
+# Order-only phony target for zadaca13
+
+build cmake_object_order_depends_target_zadaca13: phony || CMakeFiles/zadaca13.dir
+
+build CMakeFiles/zadaca13.dir/aud7/zadaca13.cpp.o: CXX_COMPILER__zadaca13_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud7/zadaca13.cpp || cmake_object_order_depends_target_zadaca13
+  DEP_FILE = CMakeFiles/zadaca13.dir/aud7/zadaca13.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zadaca13.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadaca13.dir/aud7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadaca13
+
+
+#############################################
+# Link the executable zadaca13
+
+build zadaca13: CXX_EXECUTABLE_LINKER__zadaca13_Debug CMakeFiles/zadaca13.dir/aud7/zadaca13.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/zadaca13.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadaca13
+  TARGET_PDB = zadaca13.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target playground
 
 
@@ -381,7 +505,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug
 
-build all: phony zadaca1 zadaca2 zadaca3 zadaca4 zadaca5 zadaca6 zadaca7 zadaca8 zadaca9 playground
+build all: phony zadaca1 zadaca2 zadaca3 zadaca4 zadaca5 zadaca6 zadaca7 zadaca8 zadaca9 zadaca10 zadaca11 zadaca12 zadaca13 playground
 
 # =============================================================================
 # Built-in targets

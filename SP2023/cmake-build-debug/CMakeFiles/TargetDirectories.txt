@@ -7,6 +7,10 @@
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/zadaca7.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/zadaca8.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/zadaca9.dir
+/Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/zadaca10.dir
+/Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/zadaca11.dir
+/Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/zadaca12.dir
+/Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/zadaca13.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/playground.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug/CMakeFiles/rebuild_cache.dir

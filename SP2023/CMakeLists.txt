@@ -16,6 +16,10 @@ add_executable(zadaca7 aud7/zadaca7.cpp)
 add_executable(zadaca8 aud7/zadaca8.cpp)
 
 add_executable(zadaca9 aud7/zadaca9.cpp)
+add_executable(zadaca10 aud7/zadaca10.cpp)
+add_executable(zadaca11 aud7/zadaca11.cpp)
+add_executable(zadaca12 aud7/zadaca12.cpp)
+add_executable(zadaca13 aud7/zadaca13.cpp)
 
 
 add_executable(playground playground.cpp)

@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cm
 
 build cmake_object_order_depends_target_task1: phony || CMakeFiles/task1.dir
 
-build CMakeFiles/task1.dir/ex7/task1.cpp.o: CXX_COMPILER__task1_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task1.cpp || cmake_object_order_depends_target_task1
-  DEP_FILE = CMakeFiles/task1.dir/ex7/task1.cpp.o.d
+build CMakeFiles/task1.dir/ex8/task1.cpp.o: CXX_COMPILER__task1_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex8/task1.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles/task1.dir/ex8/task1.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task1.dir
-  OBJECT_FILE_DIR = CMakeFiles/task1.dir/ex7
+  OBJECT_FILE_DIR = CMakeFiles/task1.dir/ex8
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/task1.dir/ex7/task1.cpp.o: CXX_COMPILER__task1_Debug /Users/ste
 #############################################
 # Link the executable task1
 
-build task1: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/ex7/task1.cpp.o
+build task1: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/ex8/task1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task1.dir
   POST_BUILD = :
@@ -77,11 +77,11 @@ build task1: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/ex7/task1.c
 
 build cmake_object_order_depends_target_task2: phony || CMakeFiles/task2.dir
 
-build CMakeFiles/task2.dir/ex7/task2.cpp.o: CXX_COMPILER__task2_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task2.cpp || cmake_object_order_depends_target_task2
-  DEP_FILE = CMakeFiles/task2.dir/ex7/task2.cpp.o.d
+build CMakeFiles/task2.dir/ex8/task2.cpp.o: CXX_COMPILER__task2_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex8/task2.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles/task2.dir/ex8/task2.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task2.dir
-  OBJECT_FILE_DIR = CMakeFiles/task2.dir/ex7
+  OBJECT_FILE_DIR = CMakeFiles/task2.dir/ex8
 
 
 # =============================================================================
@@ -91,7 +91,7 @@ build CMakeFiles/task2.dir/ex7/task2.cpp.o: CXX_COMPILER__task2_Debug /Users/ste
 #############################################
 # Link the executable task2
 
-build task2: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/ex7/task2.cpp.o
+build task2: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/ex8/task2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task2.dir
   POST_BUILD = :
@@ -108,11 +108,11 @@ build task2: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/ex7/task2.c
 
 build cmake_object_order_depends_target_task3: phony || CMakeFiles/task3.dir
 
-build CMakeFiles/task3.dir/ex7/task3.cpp.o: CXX_COMPILER__task3_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task3.cpp || cmake_object_order_depends_target_task3
-  DEP_FILE = CMakeFiles/task3.dir/ex7/task3.cpp.o.d
+build CMakeFiles/task3.dir/ex8/task3.cpp.o: CXX_COMPILER__task3_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex8/task3.cpp || cmake_object_order_depends_target_task3
+  DEP_FILE = CMakeFiles/task3.dir/ex8/task3.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task3.dir
-  OBJECT_FILE_DIR = CMakeFiles/task3.dir/ex7
+  OBJECT_FILE_DIR = CMakeFiles/task3.dir/ex8
 
 
 # =============================================================================
@@ -122,7 +122,7 @@ build CMakeFiles/task3.dir/ex7/task3.cpp.o: CXX_COMPILER__task3_Debug /Users/ste
 #############################################
 # Link the executable task3
 
-build task3: CXX_EXECUTABLE_LINKER__task3_Debug CMakeFiles/task3.dir/ex7/task3.cpp.o
+build task3: CXX_EXECUTABLE_LINKER__task3_Debug CMakeFiles/task3.dir/ex8/task3.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task3.dir
   POST_BUILD = :
@@ -263,11 +263,11 @@ build task7: CXX_EXECUTABLE_LINKER__task7_Debug CMakeFiles/task7.dir/ex7/task7.c
 
 build cmake_object_order_depends_target_task8: phony || CMakeFiles/task8.dir
 
-build CMakeFiles/task8.dir/ex4/task8.cpp.o: CXX_COMPILER__task8_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex4/task8.cpp || cmake_object_order_depends_target_task8
-  DEP_FILE = CMakeFiles/task8.dir/ex4/task8.cpp.o.d
+build CMakeFiles/task8.dir/ex7/task8.cpp.o: CXX_COMPILER__task8_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task8.cpp || cmake_object_order_depends_target_task8
+  DEP_FILE = CMakeFiles/task8.dir/ex7/task8.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task8.dir
-  OBJECT_FILE_DIR = CMakeFiles/task8.dir/ex4
+  OBJECT_FILE_DIR = CMakeFiles/task8.dir/ex7
 
 
 # =============================================================================
@@ -277,7 +277,7 @@ build CMakeFiles/task8.dir/ex4/task8.cpp.o: CXX_COMPILER__task8_Debug /Users/ste
 #############################################
 # Link the executable task8
 
-build task8: CXX_EXECUTABLE_LINKER__task8_Debug CMakeFiles/task8.dir/ex4/task8.cpp.o
+build task8: CXX_EXECUTABLE_LINKER__task8_Debug CMakeFiles/task8.dir/ex7/task8.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task8.dir
   POST_BUILD = :
@@ -294,11 +294,11 @@ build task8: CXX_EXECUTABLE_LINKER__task8_Debug CMakeFiles/task8.dir/ex4/task8.c
 
 build cmake_object_order_depends_target_task9: phony || CMakeFiles/task9.dir
 
-build CMakeFiles/task9.dir/ex4/task9.cpp.o: CXX_COMPILER__task9_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex4/task9.cpp || cmake_object_order_depends_target_task9
-  DEP_FILE = CMakeFiles/task9.dir/ex4/task9.cpp.o.d
+build CMakeFiles/task9.dir/ex7/task9.cpp.o: CXX_COMPILER__task9_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task9.cpp || cmake_object_order_depends_target_task9
+  DEP_FILE = CMakeFiles/task9.dir/ex7/task9.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/task9.dir
-  OBJECT_FILE_DIR = CMakeFiles/task9.dir/ex4
+  OBJECT_FILE_DIR = CMakeFiles/task9.dir/ex7
 
 
 # =============================================================================
@@ -308,13 +308,106 @@ build CMakeFiles/task9.dir/ex4/task9.cpp.o: CXX_COMPILER__task9_Debug /Users/ste
 #############################################
 # Link the executable task9
 
-build task9: CXX_EXECUTABLE_LINKER__task9_Debug CMakeFiles/task9.dir/ex4/task9.cpp.o
+build task9: CXX_EXECUTABLE_LINKER__task9_Debug CMakeFiles/task9.dir/ex7/task9.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/task9.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = task9
   TARGET_PDB = task9.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task10
+
+
+#############################################
+# Order-only phony target for task10
+
+build cmake_object_order_depends_target_task10: phony || CMakeFiles/task10.dir
+
+build CMakeFiles/task10.dir/ex7/task10.cpp.o: CXX_COMPILER__task10_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task10.cpp || cmake_object_order_depends_target_task10
+  DEP_FILE = CMakeFiles/task10.dir/ex7/task10.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/task10.dir
+  OBJECT_FILE_DIR = CMakeFiles/task10.dir/ex7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task10
+
+
+#############################################
+# Link the executable task10
+
+build task10: CXX_EXECUTABLE_LINKER__task10_Debug CMakeFiles/task10.dir/ex7/task10.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/task10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task10
+  TARGET_PDB = task10.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task11
+
+
+#############################################
+# Order-only phony target for task11
+
+build cmake_object_order_depends_target_task11: phony || CMakeFiles/task11.dir
+
+build CMakeFiles/task11.dir/ex7/task11.cpp.o: CXX_COMPILER__task11_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task11.cpp || cmake_object_order_depends_target_task11
+  DEP_FILE = CMakeFiles/task11.dir/ex7/task11.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/task11.dir
+  OBJECT_FILE_DIR = CMakeFiles/task11.dir/ex7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task11
+
+
+#############################################
+# Link the executable task11
+
+build task11: CXX_EXECUTABLE_LINKER__task11_Debug CMakeFiles/task11.dir/ex7/task11.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/task11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task11
+  TARGET_PDB = task11.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task12
+
+
+#############################################
+# Order-only phony target for task12
+
+build cmake_object_order_depends_target_task12: phony || CMakeFiles/task12.dir
+
+build CMakeFiles/task12.dir/ex7/task12.cpp.o: CXX_COMPILER__task12_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/ex7/task12.cpp || cmake_object_order_depends_target_task12
+  DEP_FILE = CMakeFiles/task12.dir/ex7/task12.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/task12.dir
+  OBJECT_FILE_DIR = CMakeFiles/task12.dir/ex7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task12
+
+
+#############################################
+# Link the executable task12
+
+build task12: CXX_EXECUTABLE_LINKER__task12_Debug CMakeFiles/task12.dir/ex7/task12.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/task12.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task12
+  TARGET_PDB = task12.dbg
 
 
 #############################################
@@ -350,7 +443,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug
 
-build all: phony task1 task2 task3 task4 task5 task6 task7 task8 task9
+build all: phony task1 task2 task3 task4 task5 task6 task7 task8 task9 task10 task11 task12
 
 # =============================================================================
 # Built-in targets
