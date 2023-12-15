@@ -8,7 +8,7 @@ using namespace std;
 
 int linearSearch(int array[], int n, int search) {
     for (int i = 0; i < n; i++) {
-        if (array[i]==search){
+        if (array[i] == search) {
             return i;
         }
     }
@@ -18,12 +18,12 @@ int linearSearch(int array[], int n, int search) {
 
 int binarySearch(int array[], int n, int search) {
     int start = 0;
-    int end = n-1;
-    while (start<end){
-        int middle = (start+end)/2;
-        if (array[middle]==search){
+    int end = n - 1;
+    while (start < end) {
+        int middle = (start + end) / 2;
+        if (array[middle] == search) {
             return middle;
-        } else if (search>array[middle]){
+        } else if (search > array[middle]) {
             start = middle;
         } else {
             end = middle;
@@ -32,6 +32,17 @@ int binarySearch(int array[], int n, int search) {
 
     return -1;
 }
+
+void bubbleSort(int array[], int n) {
+    for (int i = 0; i < n; i++) { //na sekoja iteracija na algoritam
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (array[j] < array[j + 1]) {
+                swap(array[j], array[j + 1]);
+            }
+        }
+    }
+}
+
 
 int main() {
 
@@ -44,9 +55,18 @@ int main() {
         cin >> array[i];
     }
 
-    int element;
-    cin >> element;
+    bubbleSort(array, size);
 
-    cout << binarySearch(array, size, element);
+    for (int i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+
+
+//    int element;
+//    cin >> element;
+
+//    cout << binarySearch(array, size, element);
+
+
     return 0;
 }

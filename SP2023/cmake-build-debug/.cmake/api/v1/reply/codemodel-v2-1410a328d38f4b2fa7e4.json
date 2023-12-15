@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SP2023",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "playground::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-playground-Debug-134b432a9034283a8c6f.json",
+					"name" : "playground",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca1-Debug-dbeb5cb5fd8425a724a0.json",
+					"name" : "zadaca1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca10-Debug-b59c7a9ff7fc29fe9f99.json",
+					"name" : "zadaca10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca11-Debug-01f15a7d777ecdabf08f.json",
+					"name" : "zadaca11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca12-Debug-e8507afab419912965ab.json",
+					"name" : "zadaca12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca13-Debug-94f783e7faa9f2e81943.json",
+					"name" : "zadaca13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca14::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca14-Debug-ca973ff480b8649b10e9.json",
+					"name" : "zadaca14",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca2-Debug-bf69e60fa61a2e3dc1cd.json",
+					"name" : "zadaca2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca3-Debug-2f8446a38911915d3665.json",
+					"name" : "zadaca3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca4-Debug-c2bb0c7fcd5d87f4622a.json",
+					"name" : "zadaca4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca5-Debug-a1880d578ef7a64ad3ae.json",
+					"name" : "zadaca5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca6-Debug-a815346173554cd8005b.json",
+					"name" : "zadaca6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca7-Debug-a07366ac9e43c9d8ddd8.json",
+					"name" : "zadaca7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca8-Debug-aceb6ad48fac98676eb1.json",
+					"name" : "zadaca8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca9-Debug-6e38bdcee312ad4461d7.json",
+					"name" : "zadaca9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/stefanandonov/CLionProjects/SP2023_full/SP2023/cmake-build-debug",
+		"source" : "/Users/stefanandonov/CLionProjects/SP2023_full/SP2023"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

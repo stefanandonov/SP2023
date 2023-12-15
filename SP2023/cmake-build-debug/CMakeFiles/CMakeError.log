@@ -5,7 +5,7 @@ Id flags:
 
 The output was:
 1
-ld: library not found for -lSystem
+ld: library 'System' not found
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
@@ -16,7 +16,7 @@ Id flags:
 
 The output was:
 1
-ld: library not found for -lc++
+ld: library 'c++' not found
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
