@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SP2023EN",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "task1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1-Debug-404d98a68eaf462c3d1f.json",
+					"name" : "task1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task10-Debug-b620517c5c51bfdb16df.json",
+					"name" : "task10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task11-Debug-b79a997db1c283bd05c7.json",
+					"name" : "task11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task12-Debug-b59bc7ce58676aea4f9e.json",
+					"name" : "task12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2-Debug-3a1bd3c22a5d2e5122d6.json",
+					"name" : "task2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3-Debug-ea4cb8eb5a3dfaea69f1.json",
+					"name" : "task3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task4-Debug-7d2c35e15fb9c8fb885c.json",
+					"name" : "task4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task5-Debug-be0046b8046956a48a01.json",
+					"name" : "task5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task6-Debug-fa1a67619eb73f34b7dc.json",
+					"name" : "task6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task7-Debug-28675b1fec2e5d4c3ca7.json",
+					"name" : "task7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task8-Debug-a0c25e35155689e04b6f.json",
+					"name" : "task8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task9-Debug-2cf6660bc126008a8188.json",
+					"name" : "task9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN/cmake-build-debug",
+		"source" : "/Users/stefanandonov/CLionProjects/SP2023_full/SP2023EN"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,25 +1,28 @@
 #include <iostream>
+#include <cmath>
+
 using namespace std;
+
 int main() {
-    int broj;
-    int finalnumber;
-    while(cin>>broj)
-    {
-        int tempbroj=broj;
-        while(tempbroj>9) {
-            int last = tempbroj % 10;
-            int pre_last = (tempbroj / 10) % 10;
-            int last_two = last + pre_last;
+    int number, last, beforelast, product, counter, temp, newnumber, ilk, sayi;
+    while (cin >> number) {
 
-            if (last_two>=10){
-                tempbroj = tempbroj/100*100 + last_two;
+        while (number) {
+            last = number % 10;
+            number /= 10;
+            beforelast = number % 10;
+            number /= 10;
+            product = last * beforelast;
+
+            if (product>9){
+                number = (number * 100) + product;
             } else {
-                tempbroj = tempbroj/100*10 + last_two;
+                number = (number * 10) + product;
             }
-            cout << tempbroj << endl;
+            cout << number << endl;
         }
-        cout << tempbroj << endl;
-
     }
 
+
+    return 0;
 }
