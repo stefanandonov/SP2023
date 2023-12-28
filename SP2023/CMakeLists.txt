@@ -5,13 +5,13 @@ set(CMAKE_CXX_STANDARD 17)
 #
 #add_executable(SP2023 main.cpp)
 
-add_executable(zadaca1 aud10/zadaca1.cpp)
+add_executable(zadaca1 aud11/zadaca1.cpp)
 
-add_executable(zadaca2 aud10/zadaca2.cpp)
-add_executable(zadaca3 aud10/zadaca3.cpp)
-add_executable(zadaca4 aud10/zadaca4.cpp)
-add_executable(zadaca5 aud10/zadaca5.cpp)
-add_executable(zadaca6 aud10/zadaca6.cpp)
+add_executable(zadaca2 aud11/zadaca2.cpp)
+add_executable(zadaca3 aud11/zadaca3.cpp)
+add_executable(zadaca4 aud11/zadaca4.cpp)
+add_executable(zadaca5 aud11/zadaca5.cpp)
+add_executable(zadaca6 aud11/zadaca6.cpp)
 add_executable(zadaca7 aud10/zadaca7.cpp)
 add_executable(zadaca8 aud10/zadaca8.cpp)
 
