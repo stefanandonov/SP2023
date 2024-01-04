@@ -12,7 +12,7 @@ add_executable(zadaca3 aud11/zadaca3.cpp)
 add_executable(zadaca4 aud11/zadaca4.cpp)
 add_executable(zadaca5 aud11/zadaca5.cpp)
 add_executable(zadaca6 aud11/zadaca6.cpp)
-add_executable(zadaca7 aud10/zadaca7.cpp)
+add_executable(zadaca7 aud11/zadaca7.cpp)
 add_executable(zadaca8 aud10/zadaca8.cpp)
 
 add_executable(zadaca9 aud10/zadaca9.cpp)

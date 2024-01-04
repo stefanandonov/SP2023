@@ -232,11 +232,11 @@ build zadaca6: CXX_EXECUTABLE_LINKER__zadaca6_Debug CMakeFiles/zadaca6.dir/aud11
 
 build cmake_object_order_depends_target_zadaca7: phony || CMakeFiles/zadaca7.dir
 
-build CMakeFiles/zadaca7.dir/aud10/zadaca7.cpp.o: CXX_COMPILER__zadaca7_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud10/zadaca7.cpp || cmake_object_order_depends_target_zadaca7
-  DEP_FILE = CMakeFiles/zadaca7.dir/aud10/zadaca7.cpp.o.d
+build CMakeFiles/zadaca7.dir/aud11/zadaca7.cpp.o: CXX_COMPILER__zadaca7_Debug /Users/stefanandonov/CLionProjects/SP2023_full/SP2023/aud11/zadaca7.cpp || cmake_object_order_depends_target_zadaca7
+  DEP_FILE = CMakeFiles/zadaca7.dir/aud11/zadaca7.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/zadaca7.dir
-  OBJECT_FILE_DIR = CMakeFiles/zadaca7.dir/aud10
+  OBJECT_FILE_DIR = CMakeFiles/zadaca7.dir/aud11
 
 
 # =============================================================================
@@ -246,7 +246,7 @@ build CMakeFiles/zadaca7.dir/aud10/zadaca7.cpp.o: CXX_COMPILER__zadaca7_Debug /U
 #############################################
 # Link the executable zadaca7
 
-build zadaca7: CXX_EXECUTABLE_LINKER__zadaca7_Debug CMakeFiles/zadaca7.dir/aud10/zadaca7.cpp.o
+build zadaca7: CXX_EXECUTABLE_LINKER__zadaca7_Debug CMakeFiles/zadaca7.dir/aud11/zadaca7.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/zadaca7.dir
   POST_BUILD = :

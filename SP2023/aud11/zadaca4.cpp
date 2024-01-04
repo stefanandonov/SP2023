@@ -33,7 +33,8 @@ int main() {
     for (int i = 0; i < size; i++) {
         if (strstr(contacts[i], contact)){
 //            cout << contacts[i];
-            //d -> od vtor do tret space
+            //Dusko Pejovski 3244056 071222344
+            //d -> од првата цифра до последната цифра
             //m -> od tretiot space do krajot
             if (type=='d'){
                 bool flag = false;
